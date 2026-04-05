@@ -1,0 +1,93 @@
+[
+  {
+    "ContainingType": "API_RESTful.Controllers.ProductosController",
+    "Method": "PostProducto",
+    "RelativePath": "api/Productos/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevoProducto",
+        "Type": "API_RESTful.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_RESTful.Controllers.ProductosController",
+    "Method": "GetProductos",
+    "RelativePath": "api/Productos/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_RESTful.Controllers.UsuariosController",
+    "Method": "PostUsuario",
+    "RelativePath": "api/Usuarios/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevoUsuario",
+        "Type": "API_RESTful.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_RESTful.Controllers.UsuariosController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/Usuarios/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_RESTful.Controllers.UsuariosController",
+    "Method": "Login",
+    "RelativePath": "api/Usuarios/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API_RESTful.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_RESTful.Controllers.UsuariosController",
+    "Method": "VerMiPerfil",
+    "RelativePath": "api/Usuarios/mi-perfil",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_RESTful.Controllers.ProductosController",
+    "Method": "IsAlive",
+    "RelativePath": "isalive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "Tags": [
+      "Monitoreo"
+    ]
+  }
+]
